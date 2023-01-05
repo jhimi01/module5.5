@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btn{
+    padding: 12px 15px;
+    font-weight: 600;
+    background: #f34040;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin-top: 15px;
+    /* text-align: center; */
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+p{
+    text-align: center;
+    line-height: 1.5;
+}
+ul li{
+    list-style-type: none;
+}
+section{
+  margin-top: 100px;
+}
+.description{
+    color: #707070;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background: #000;
+}
+.hero .title{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* amount section */
+.amount h1{
+    text-align: center;
+}
+.amount .amount-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+.amount .amount-list li{
+    font-size: 20px;
+    color: #707070;
+    padding: 20px 15px;
+    background: #ececec;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.amount .amount-list li:nth-child(2){
+    border: 1px solid #f34040;
+
+}
+.amount .amount-other{
+    font-size: 20px;
+    color: #c5c5c5;
+    width: 50%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 32px;
+}
+.amount-btn{
+  text-align: center;
+}
