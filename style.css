@@ -203,3 +203,31 @@ footer p{
     color: #c5c5c5;
     font-size: 13px;
 }
+
+@media screen and (max-width: 720px){
+    .amount .amount-list{
+        flex-wrap: wrap;
+    }
+    .st-seciton, .nd-seciton{
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 0;
+    }
+    .nd-seciton{
+        flex-direction: column;
+    }
+    .containers .content{
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+        margin: 0 20px;
+    }
+    .card-grp{
+        flex-direction: column;
+    }
+    .subcription .eamil-section{
+        /* height: 100%; */
+        width: 100%;
+    }
+}
